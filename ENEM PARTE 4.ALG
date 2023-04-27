@@ -1,11 +1,11 @@
-Algoritmo "ENEM PARTE 3"
+Algoritmo "ENEM PARTE 4"
 // Disciplina   : [Curso de Logica de programacao do Zero]
 // Professor   : jader Jackson da Silva
-// DescriÁ„o   : Aqui vocÍ descreve o que o programa faz! (funÁ„o)
+// Descri√ß√£o   : Aqui voc√™ descreve o que o programa faz! (fun√ß√£o)
 // Autor(a)    : Jader Gomes
 // Data atual  : 25/04/2023
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    ENEM, SENHA,CONFIRMESENHA,CPF,CPFCONSULTADO,CONFIRME,MODAL: INTEIRO
    ESTUDO:INTEIRO
    NOME,NOMEMAE,NOMEPAI,DATANASCIMENTO,ESCOLHAESCOLA: CARACTERE
@@ -15,7 +15,7 @@ Var
 
     OPUM,OPDOIS,OPTRES,OPQUATRO : REAL
 Inicio
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
    REPITA
       ESCREVAL("ENEM 2023")
       ESCREVAL("1- ISENCAO")
@@ -53,13 +53,13 @@ Inicio
          ESCREVAL("VOCE ESTA NO ULTIMO ANO DO ENSINO MEDIO")
          ESCREVAL("ESTOU NO PENULTIMO ANO DO ENSINO MEDIO")
          LEIA(ESTUDO)
-         //FIM DAS INFORMA«’ES BASICAS DA ISENCAO
+         //FIM DAS INFORMA√á√ïES BASICAS DA ISENCAO
 
 
          //INICIO CADASTRO DE SENHA
          //VOU UTILIZAR O CPF REPASSADO PARA SER O LOGIN
          REPITA
-            ESCREVAL("INFORME UMA SENHA COM 6 NUMEROS DE 0 ¡ 9 NUMEROS")
+            ESCREVAL("INFORME UMA SENHA COM 6 NUMEROS DE 0 √Å 9 NUMEROS")
             LEIA(SENHA)
             ESCREVAL("CONFIRME SUA SENHA")
             LEIA(CONFIRMESENHA)
@@ -68,7 +68,7 @@ Inicio
                ESCREVAL("SEU LOGIN E O NUMERO DO SEU CPF")
             SENAO
                SE SENHA <> CONFIRMESENHA ENTAO
-                  ESCREVAL ("SENHAS N√O CORRESPONDENTES")
+                  ESCREVAL ("SENHAS N√ÉO CORRESPONDENTES")
                FIMSE
             FIMSE
          ATE  SENHA = CONFIRMESENHA
@@ -129,7 +129,7 @@ Inicio
             ESCREVAL("INFORME SEU CPF")
             LEIA (CPFCONSULTADO)
             SE (CPF = CPFCONSULTADO) ENTAO
-               ESCREVAL( " 1 - CONFIRMAR SUA INSCRI«√O ")
+               ESCREVAL( " 1 - CONFIRMAR SUA INSCRI√á√ÉO ")
                ESCREVAL( " 2 - PARA SAIR ")
                leia (CONFIRME)
 
