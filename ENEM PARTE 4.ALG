@@ -106,7 +106,7 @@ Inicio
          Escreval("Quantidade  computador")
          Leia (COMPUTADOR)
          Escreval("internet 1-SIM 2-NAO")
-         Leia (TVS)
+         Leia (NET)
          Escreval("Quantidade Celulares")
          Leia (CELULAR)
          //FIM PESQUISA SOCIO ECONOMICA
